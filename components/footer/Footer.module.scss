@@ -1,0 +1,13 @@
+.footer {
+  font-family: $monospace-font-family;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding: 0.5rem 1rem;
+  @media screen and (max-width: $medium-breakpoint) {
+    padding: 0.5rem 0;
+  }
+}

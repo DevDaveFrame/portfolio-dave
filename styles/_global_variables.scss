@@ -1,0 +1,40 @@
+/****** global variables ********/
+
+// colors
+$primary-color: #00bcd4;
+$dark-primary-color: #0097a7;
+$text-color: #212121;
+$dark-text-color: #757575;
+$highlight-color: #ffeb3b;
+$dark-highlight-color: #f9a825;
+$accent-color: #ff9800;
+$dark-accent-color: #f57c00;
+$background-color: #d4d4d4;
+$dark-background-color: #1e1e1e;
+
+// fonts
+$standard-font-family: Georgia, serif;
+$monospace-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+// media queries
+$xxsmall-breakpoint: 20em;
+$xsmall-breakpoint: 25em;
+$small-breakpoint: 40em;
+$menu-breakpoint: 51em;
+$medium-breakpoint: 64em;
+$large-breakpoint: 70em;
+$xlarge-breakpoint: 81em;
+
+// spacing
+$xxs-space: 0.25rem;
+$xs-space: 0.5rem;
+$s-space: 0.75rem;
+$m-space: 1rem;
+$l-space: 1.25rem;
+$xl-space: 2rem;
+$xxl-space: 3.25rem;
+
+$small-border-radius: 2px;
+$medium-border-radius: 4px;
+$large-border-radius: 6px;
+$xlarge-border-radius: 14px;

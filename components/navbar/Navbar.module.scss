@@ -1,0 +1,33 @@
+.navbar {
+  font-family: $monospace-font-family;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: #000 solid 1px;
+}
+.logo {
+  a {
+    display: block;
+    line-height: 0;
+  }
+}
+.menu {
+  width: 70%;
+  overflow: hidden;
+  ul {
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  li {
+    list-style: none;
+  }
+  .item {
+    text-decoration: none;
+    color: #000;
+  }
+}

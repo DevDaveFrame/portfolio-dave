@@ -1,0 +1,26 @@
+@import './_global_variables.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: $standard-font-family;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: $large-breakpoint;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
