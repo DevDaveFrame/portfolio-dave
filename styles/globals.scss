@@ -49,6 +49,8 @@ main {
 }
 
 .screen {
+  display: flex;
+  flex-flow: row nowrap;
   border: 2px solid $primary-color;
   box-shadow: -5px 5px 0 0 $primary-color;
   width: 100%;
@@ -74,4 +76,18 @@ main {
       }
     }
   }
+  &__display {
+    padding: 1rem;
+    overflow: scroll;
+    width: 100%;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 100%;
 }
